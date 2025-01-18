@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Socket Machine</title>
+</head>
+<body>
+ <form action = "/lab_2_J2EE/SocketMachineServlet" method="post">
+ <h1>Socket Machine Web Application</h1>
+ <label for="socket_type">Socket Type:</label>
+   <select name ="socket_type" id="socket_type">
+   	<option id = "typeA" value ="TYPE_A">TYPE A</option>
+   	<option id = "typeB" value ="TYPE_B">TYPE B</option>
+   	<option id = "typeC" value ="TYPE_C">TYPE C</option>
+   </select>
+   <br>
+   <br>
+   
+   Quantity:
+   <input type = "number" name="quantity" id = "quantity"></input>
+   <br>
+   <br>
+   Customer Name:
+   <input type = "text" name = "customer_name" id = "customer_name"></input>
+   <br>
+   <br>
+   Customer Email:
+   <input type = "email" name = "customer_email" id = "customer_email"></input>
+   <br>
+   <button type = "submit">Submit</button>
+   <br>
+   <br>
+ </form>
+</body>
+</html>
